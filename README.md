@@ -2,13 +2,13 @@
 
 Tired of Googling around for programming interview practice problems? This is a project to build high-quality practice problems suggested for preparing for programming interviews.
 
-## All The Questions
+## Suggested Practice Questions
 
 1. [Array Rotation](array_rotate): take a given array and rotate it `n` slots *(10-20 minutes)*
 
-## How should you practice?
+## How should you approach these problems?
 
-1. Code in a realistic fashion. If you're doing a whiteboard interview, practice with a whiteboard. If you don't have a whiteboard, writing your solution on paper can be a good substitute. Phone interview? Try using the online code pad they will have you use.
+1. **Code in a realistic fashion**. If you're doing a whiteboard interview, practice with a whiteboard. If you don't have a whiteboard, writing your solution on paper can be a good substitute. Phone interview? Try using the online code pad they will have you use.
 2. Always compile your code after writing it. You'll often find bugs in your solution. Think—how might you catch this problem in the future?
 
 ## What makes a good practice problem?
