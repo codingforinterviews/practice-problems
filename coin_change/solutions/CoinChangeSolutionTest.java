@@ -33,7 +33,7 @@ public class CoinChangeSolutionTest {
 	}
 
 	@Test
-	public void testCoinChangeSolutionRecursiveSpeedtest() {
+	public void testCoinChangeSolutionRecursiveSpeed() {
 
 		int coins[] = { 2, 5, 3, 6, 10, 7, 8, 12, 17, 19, 20 };
 		assertEquals(227491942,
@@ -41,7 +41,7 @@ public class CoinChangeSolutionTest {
 	}
 
 	@Test
-	public void testCoinChangeSolutionOptimalSpeedtest() {
+	public void testCoinChangeSolutionOptimalSpeed() {
 
 		int coins[] = { 2, 5, 3, 6, 10, 7, 8, 12, 17, 19, 20 };
 		assertEquals(227491942, CoinChangeSolution.countOptimal(coins, 250));
