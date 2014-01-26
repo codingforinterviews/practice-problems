@@ -3,24 +3,21 @@
 #include <string>
 #include <vector>
 
+
 class Node {
 public:
-    // constructor
+    Node() : value(-1), left(NULL), right(NULL) {
+    }
+
     Node(int value) : left(NULL), right(NULL) {
         this->value = value;
     }
 
-    // destructor
-    ~Node() {
-    }
-
-    // copy constructor
-    Node(const Node& o) {
-    }
-
-    // assignment
-    Node& operator=(const Node &o) {
-    }
+    Node* getLeft() { return left; }
+    void setLeft(Node* node) { left = node; }
+    Node* getRight() { return right; }
+    void setRight(Node* node) { right = node; }
+    int getValue() { return value; }
 
 private:
     int value;
