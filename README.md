@@ -26,4 +26,6 @@ Tired of Googling around for programming interview practice problems? This is a 
 
 *Interested in getting even more involved?* Feel free to submit problems and solutions as pull requests. Email brian@codingforinterviews.com to get more involved with the group and join our planning Trello board.
 
+## License (CC-by)
+
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Programming Interview Practice Problems</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/codingforinterviews/practice-problems" property="cc:attributionName" rel="cc:attributionURL">Coding for Interviews contributors</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/codingforinterviews/practice-problems" rel="dct:source">https://github.com/codingforinterviews/practice-problems</a>.
