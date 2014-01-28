@@ -4,6 +4,7 @@ In this problem, *your code* will need to efficiently compute the answer.
 # Problem Statement
 
 Write a program that, given two arguments to STDIN  
+
 * a list of coins `c1, c2, c3, ..` 
 * and an amount `n`
 
@@ -18,11 +19,14 @@ Given a value `N`, if we want to make change for `N` cents, and we have infinite
 For `N = 4` and `C = {1,2,3}` there are four solutions: `{1,1,1,1},{1,1,2},{2,2},{1,3}` 
 
 So given the input
+
 ```
 1, 2, 3
 4
 ```
+
 your program should output:
+
 ```
 4
 ```
@@ -32,23 +36,26 @@ your program should output:
 For `N = 10` and `C = {2, 5, 3, 6}` there are five solutions: `{2,2,2,2,2}, {2,2,3,3}, {2,2,6}, {2,3,5} and {5,5}`
 
 So given the input
+
 ```
 2, 5, 3, 6
 10
 ```
+
 your program should output:
+
 ```
 5
 ```
 
-
 # Solving the overlapping subproblems using dynamic programming
 
-You can solve this problem recursivly, but you will not passs all the tests unless 
+You can solve this problem recursively, but all the test will not passs unless 
 you optimise your solution to eliminate the [overlapping subproblems](http://en.wikipedia.org/wiki/Overlapping_subproblem) using a [dynamic programming solution](http://en.wikipedia.org/wiki/Dynamic_programming)
 
 Or more specifically; 
-* If you can think of a way to store the checked solutions this store can be used to avoid checking the same solution again and again.
+
+* If you can think of a way to store the checked solutions, then this store can be used to avoid checking the same solution again and again.
 
 # Hints
 
