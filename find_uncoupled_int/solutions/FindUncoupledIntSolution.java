@@ -17,7 +17,7 @@ public class FindUncoupledIntSolution {
 
 	/*
 	 * Computes the bitwise-XOR, ^, of all the elements of an array to find the
-	 * unpaired element.
+	 * unpaired element in O(n).
 	 * 
 	 * @param nums[] array of numbers to search in.
 	 * 
