@@ -5,7 +5,7 @@ Tired of Googling around for programming interview practice problems? This is a 
 ## Suggested Practice Questions
 
 1. [Array Rotation](array_rotate): take a given array and rotate it `n` slots *(10-20 minutes)*
-2. [Coin Change](coin_change): how many different ways can you make change for an mount, given a list of coins?
+2. [Coin Change](coin_change): how many different ways can you make change given an amount and list of coins?
 3. [Tree Zig Zag](tree_zig_zag): alternate between the left-most and right-most nodes in a BST.
 
 ## How should you approach these problems?
@@ -24,4 +24,4 @@ Tired of Googling around for programming interview practice problems? This is a 
     more specific targeted problems—better for checking understanding
 6. Not breaking any confidentiality agreements
 
-*Interested in contributing?* Feel free to submit problems and solutions as pull requests. Email brian@codingforinterviews.com to get more involved with the group and join our planning Trello board.
+*Interested in getting even more involved?* Feel free to submit problems and solutions as pull requests. Email brian@codingforinterviews.com to get more involved with the group and join our planning Trello board.
