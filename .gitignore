@@ -64,3 +64,6 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# vi swap files
+*.swp
