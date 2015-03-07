@@ -9,7 +9,7 @@ class Node<T> {
     Node<T> stepping1 = this;
     Node<T> stepping2 = this;
 
-    while (stepping2.next != null) {
+    while (stepping2.next != null && stepping2.next.next != null) {
       stepping1 = stepping1.next;
       stepping2 = stepping2.next.next;
 
@@ -44,8 +44,15 @@ class Solution {
     System.out.println(a.containsCycle());
 
     Node<String> f = new Node<String>();
-    Node<String> g = new Node<String>();
     f.next = null;
     System.out.println(f.containsCycle());
+
+    Node<String> h = new Node<String>();
+    Node<String> i = new Node<String>();
+    h.next = i;
+    i.next = null;
+    System.out.println(h.containsCycle());
+
+
   }
 }
