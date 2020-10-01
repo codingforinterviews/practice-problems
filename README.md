@@ -12,6 +12,7 @@ Tired of Googling around for programming interview practice problems? This is a 
 
 1. **Code in a realistic fashion**. If you're doing a whiteboard interview, practice with a whiteboard. If you don't have a whiteboard, writing your solution on paper can be a good substitute. Phone interview? Try using the online code pad they will have you use.
 2. Always compile your code after writing it. You'll often find bugs in your solution. Think—how might you catch this problem in the future?
+3. You can a better IDE to auto-compile when you are a beginner.
 
 ## What makes a good practice problem?
 
